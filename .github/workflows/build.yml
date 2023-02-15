@@ -34,4 +34,4 @@ jobs:
           echo "RAILWAY_TOKEN: ${{secrets.RAILWAY_TOKEN}}"
           railway up
         env: 
-          RAILWAY_TOKEN: ${{secrets.RAILWAY_TOKEN}}
+          Deployment: ${{secrets.RAILWAY_TOKEN}}
