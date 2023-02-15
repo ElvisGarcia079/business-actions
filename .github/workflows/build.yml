@@ -1,4 +1,4 @@
-name: Test and Deploy App
+name: Test and Deploy
 on: 
   push: 
     branches: [main]
